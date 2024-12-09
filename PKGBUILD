@@ -3,15 +3,15 @@
 # Contributor: gh0stwizard <vitaliy.tokarev@gmail.com>
 
 pkgname=wmifinfo
-pkgver=0.09
+pkgver=0.11
 pkgrel=4
 pkgdesc="A simple applet showing basic network configuration for all available interfaces"
-arch=('i686' 'x86_64')
-url="http://zevv.nl/play/code/wmifinfo/"
+arch=('i686' 'x86_64' 'aarch64')
+url="https://www.dockapps.net/wmifinfo"
 license=('GPL')
 depends=('libxpm')
-source=("http://zevv.nl/play/code/wmifinfo/${pkgname}-${pkgver}.tgz")
-md5sums=('0c7a2a65e756cf41d94dea3e9268c7e7')
+source=("https://www.dockapps.net/download/${pkgname}-${pkgver}.tgz")
+md5sums=('361a1797c47632cdd0d9e97c83ca2851')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
